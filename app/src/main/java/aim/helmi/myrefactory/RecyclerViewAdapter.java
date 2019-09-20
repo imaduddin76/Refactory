@@ -51,7 +51,6 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
             Log.i("autolog", "ViewHolder");
 
             name = (TextView) itemView.findViewById(R.id.name);
-//            hobby = (TextView) itemView.findViewById(R.id.hobby);
 
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
